@@ -2,6 +2,10 @@ package string;
 
 import java.nio.charset.Charset;
 
+/**
+ * 자바 String 생성자
+ * @date 		: 2021. 5. 25.
+ */
 public class StringConstructor {
 
 	public static void main(String[] args) throws Exception {
