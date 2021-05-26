@@ -9,7 +9,7 @@ public class StringStartEndWith {
 		System.out.println("s.startsWith(\"app\", 0) : " + s.startsWith("app", 0));
 		
 		System.out.println("s.endsWith(\"ana\") : " + s.endsWith("ana"));
-
+ 
 	}
 
 }
