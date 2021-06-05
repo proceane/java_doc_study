@@ -44,10 +44,20 @@ public class StringEtc {
 		str = "  a      b    c    ";
 		System.out.println(str.trim());
 		
+		System.out.println();
+		
 		//intern()
+		String str1 = "WORD";
+		String str2 = "WORD";
+		System.out.println("str1's hashcode : " + str1.hashCode());
+		System.out.println("str2's hashcode : " + str2.hashCode());
 		
+		String str3 = new String("WORD");
+		System.out.println("str3's hashcode : " + str3.hashCode());
+		System.out.println("str1 == str3 result : " + String.valueOf(str1 == str3));
 		
-		
+		String str4 = new String("WORD").intern();
+		System.out.println("str1 == str4 result : " + String.valueOf(str1 == str4));
 		
 		
 	}
