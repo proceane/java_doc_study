@@ -20,6 +20,10 @@ public class IntegerCompare {
 		System.out.println("Max : " + Integer.max(a, b));
 		System.out.println("Min : " + Integer.min(a, b));
 		
+		System.out.println();
+		
+		//equals
+		System.out.println("10 == 10 ? " + new Integer(10).equals(10));
 	}
 
 }
